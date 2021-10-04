@@ -4,7 +4,7 @@ const thingShema = mongoose.Schema({
     title: {type: String, required: true},
     description: {type: String, required: true},
     imageUrl: {type: String, required: true},
-    userId: {type: String, required: true},
+    userId: {type: Number, required: true},
     price: {type: Number, required: true},
 });
 
