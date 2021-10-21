@@ -1,3 +1,5 @@
+// Contient la logique métier user
+
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 

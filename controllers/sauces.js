@@ -1,3 +1,5 @@
+// Contient la logique métier sauce
+
 const Sauce = require('../models/Sauce');
 const fs = require('fs');
 
